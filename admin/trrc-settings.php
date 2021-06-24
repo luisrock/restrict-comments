@@ -90,7 +90,7 @@ function trrc_admin_page() {
                         </select>
                     </label>
                 </div>
-                <span>* <?php esc_html_e( 'Administrators and users with roles that allow to edit posts or moderate comments are already excepted from the restriction.', 'restrict-comments' ); ?></span>
+                <span>* <?php esc_html_e( 'Administrators and users on roles with edit posts or moderate comments capabilities are already excepted from the restriction.', 'restrict-comments' ); ?></span>
             </div>
 
             <?php submit_button(); ?>
